@@ -1,0 +1,22 @@
+﻿@model LojaVirtualAgoraVai.Models.Produto;
+
+@{
+    ViewData["Title"] = "Visualizar Produto";
+}
+
+<h1>Loja Agora Vai! Essa vai bombar</h1>
+
+@{ 
+    string razaoSocial = "Loja Agora vai bombar! Agora, em uma variável!";
+}
+
+<p>@razaoSocial</p>
+
+<br />
+<br />
+
+<h2>Produto</h2>
+<b>Código:</b><p>@Model.Id</p>
+<b>Nome:</b><p>@Model.Nome</p>
+<b>Descrição:</b><p>@Model.Descricao</p>
+<b>Preço:</b><p>@Model.Valor</p>
